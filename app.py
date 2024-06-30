@@ -48,3 +48,11 @@ def db_check():
     db.commit()
     return f"Data saveed"
 
+@app.route("/zeel")
+def zeel2():
+    return render_template("zeel.html")
+
+@app.route("/shu")
+def shubham():
+    return render_template("shubham.html")
+
